@@ -8,3 +8,6 @@ def hello_world():
     sleep(30)
     return "30 seconds have passed"
 
+@app.route("/goddammit")
+def goddammit():
+    return "It is not you, it is render.com"
